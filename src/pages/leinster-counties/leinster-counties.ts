@@ -52,28 +52,9 @@ export class LeinsterCountiesPage {
     this.navCtrl.push('LongfordPage');
   }
 
-  openLouthPage(){
-    this.navCtrl.push('LouthPage');
-  }
 
-  openMeathPage(){
-    this.navCtrl.push('MeathPage');
-  }
-
-  openOffalyPage(){
-    this.navCtrl.push('OffalyPage');
-  }
-
-  openWestmeathPage(){
-    this.navCtrl.push('WestmeathPage');
-  }
-
-  openWexfordPage(){
-    this.navCtrl.push('WexfordPage');
-  }
-
-  openWicklowPage(){
-    this.navCtrl.push('WicklowPage');
+  openLeinsterCounties2(){
+    this.navCtrl.push('LeinsterCounties2Page');
   }
 
 }

@@ -23,4 +23,27 @@ export class MunsterCountiesPage {
     console.log('ionViewDidLoad MunsterCountiesPage');
   }
 
+  openCorkPage(){
+    this.navCtrl.push('CorkPage');
+  }
+  openClarePage(){
+    this.navCtrl.push('ClarePage');
+  }
+
+  openKerryPage(){
+    this.navCtrl.push('KerryPage');
+  }
+
+  openLimerickPage(){
+    this.navCtrl.push('LimerickPage');
+  }
+
+  openTipperaryPage(){
+    this.navCtrl.push('TipperaryPage');
+  }
+
+  openWaterfordPage(){
+    this.navCtrl.push('WaterfordPage');
+  }
+
 }

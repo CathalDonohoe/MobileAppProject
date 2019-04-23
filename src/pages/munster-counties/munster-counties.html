@@ -6,15 +6,53 @@
 -->
 <ion-header>
   <ion-navbar>
-    <ion-title>munster_counties</ion-title>
+    <ion-title>Munster</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Cork</h2>
-  <h2>Clare</h2>
-  <h2>Kerry</h2>
-  <h2>Limerick</h2>
-  <h2>Tipperary</h2>
-  <h2>Waterford</h2>
+<ion-content padding class=munster>
+      <h1>Munster/Mhumhain</h1>
+
+      <p><b>One of the provinces of Ireland, in the south west of Ireland. In early Ireland, the Kingdom of Munster was one of the kingdoms of Gaelic Ireland ruled by a "king of over-kings".
+          Following the Norman invasion of Ireland, the ancient kingdoms were shired into counties for administrative and judicial purposes. 
+          In later centuries, local government legislation has seen further sub-division of the historic counties.
+      </b></p>
+
+      <ion-img width="200" height="250" src="../assets/imgs/Munster.png"></ion-img>
+      
+      <ion-item padding class=Cork>
+        <h2>Cork</h2>
+        <ion-img width="80" height="80" src="../assets/imgs/CorkCrest.jpg"></ion-img>
+        <button ion-button color = "twitter" square (click)="openCorkPage()">Open Cork</button>
+      </ion-item>
+  
+      <ion-item padding class=Clare>
+        <h2>Clare</h2>
+        <ion-img width="80" height="80" src="../assets/imgs/ClareCrest.png"></ion-img>
+        <button ion-button color="twitter" square (click)="openClarePage()">Open Clare</button>
+      </ion-item>
+    
+      <ion-item padding class=Kerry>
+        <h2>Kerry</h2>
+        <ion-img width="80" height="80" src="../assets/imgs/KerryCrest.png"></ion-img>
+        <button ion-button color="twitter" square (click)="openKerryPage()">Open Kerry</button>
+      </ion-item>
+    
+      <ion-item padding class=Limerick>
+        <h2>Limerick</h2>
+        <ion-img width="80" height="80" src="../assets/imgs/LimerickCrest.jpg"></ion-img>
+        <button ion-button color="twitter" square (click)="openLimerickPage()">Open Limerick</button>
+      </ion-item>
+    
+      <ion-item padding class=Tipperary>
+        <h2>Tipperary</h2>
+        <ion-img width="80" height="80" src="../assets/imgs/TipperaryCrest.jpg"></ion-img>
+        <button ion-button color="twitter" square (click)="openTipperaryPage()">Open Tipperary</button>
+      </ion-item>
+
+      <ion-item padding class=Waterford>
+        <h2>Waterford</h2>
+        <ion-img width="80" height="80" src="../assets/imgs/WaterfordCrest.png"></ion-img>
+        <button ion-button color="twitter" square (click)="openWaterfordPage()">Open Waterford</button>
+      </ion-item>
 </ion-content>

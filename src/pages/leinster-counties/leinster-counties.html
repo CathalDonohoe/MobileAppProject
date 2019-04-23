@@ -6,99 +6,57 @@
 -->
 <ion-header>
   <ion-navbar>
-    <ion-title>leinster_counties</ion-title>
+    <ion-title>Leinster</ion-title>
   </ion-navbar>
 </ion-header>
 
-  <h2>Laois</h2>
-  <h2>Longford</h2>
-  <h2>Louth</h2>
-  <h2>Meath</h2>
-  <h2>Offaly</h2>
-  <h2>Westmeath</h2>
-  <h2>Wexford</h2>
-  <h2>Wicklow</h2>
-
   <ion-content padding class=leinster>
-      <h1>Leinster</h1>
+      <h1 ion-text color="light">Leinster</h1>
 
-      <p><b>One of the Provinces of Ireland, lies in the east of Ireland.
+      <p ion-text color="light"><b>One of the Provinces of Ireland, lies in the east of Ireland.
         The largest City in Leinster is Dublin, the capital of Ireland.
         Leinster holds the most counties in Ireland and is also the home to Ireland's best Rugby team.
       </b></p>
 
-      <ion-img width="200" height="220" src="http://www.kavanaghfamily.com/images/maps/ieleinster2.gif"></ion-img>
+      <ion-img width="200" height="220" src="../assets/imgs/Leinster.gif"></ion-img>
       
       <ion-item padding class=Carlow>
         <h2>Carlow</h2>
-        <ion-img width="50" height="60" src="https://i.ebayimg.com/images/g/E08AAMXQJRhRb3kA/s-l300.jpg"></ion-img>
+        <ion-img width="80" height="80" src="../assets/imgs/CarlowCrest.jpg"></ion-img>
         <button ion-button color = "twitter" square (click)="openCarlowPage()">Open Carlow</button>
       </ion-item>
     
       <ion-item padding class=Dublin>
         <h2>Dublin</h2>
-        <ion-img width="50" height="50" src="https://s3-eu-west-1.amazonaws.com/dublingaa-uploads/dublin_crest_copy.png"></ion-img>
+        <ion-img width="80" height="80" src="../assets/imgs/DublinCrest.png"></ion-img>
         <button ion-button color="twitter" square (click)="openDublinPage()">Open Dublin</button>
       </ion-item>
     
       <ion-item padding class=Kildare>
         <h2>Kildare</h2>
-        <ion-img width="50" height="50" src="https://www.heraldry-wiki.com/heraldrywiki/images/8/8b/Kildare.county.jpg"></ion-img>
+        <ion-img width="80" height="80" src="../assets/imgs/KildareCrest.jpg"></ion-img>
         <button ion-button color="twitter" square (click)="openKildarePage()">Open Kildare</button>
       </ion-item>
     
       <ion-item padding class=Kilkenny>
         <h2>Kilkenny</h2>
-        <ion-img width="50" height="50" src="https://upload.wikimedia.org/wikipedia/commons/2/20/Kilkenny_County_Crest.svg"></ion-img>
+        <ion-img width="80" height="80" src="../assets/imgs/KilkennyCrest.svg"></ion-img>
         <button ion-button color="twitter" square (click)="openKilkennyPage()">Open Kilkenny</button>
       </ion-item>
     
       <ion-item padding class=Laois>
         <h2>Laois</h2>
-        <ion-img width="50" height="50" src="https://sportinglimerick.com/wp-content/uploads/2018/01/Laois-GAA-crest.jpg"></ion-img>
+        <ion-img width="80" height="80" src="../assets/imgs/LaoisCrest.jpg"></ion-img>
         <button ion-button color="twitter" square (click)="openLaoisPage()">Open Laois</button>
       </ion-item>
 
       <ion-item padding class=Longford>
         <h2>Longford</h2>
-        <ion-img width="50" height="50" src="http://longfordgaa.ie/wp-content/uploads/2017/02/LD-Crest.png"></ion-img>
+        <ion-img width="80" height="80" src="../assets/imgs/LongfordCrest.png"></ion-img>
         <button ion-button color="twitter" square (click)="openLongfordPage()">Open Longford</button>
       </ion-item>
 
-      <ion-item padding class=Louth>
-        <h2>Louth</h2>
-        <ion-img width="50" height="50" src="https://www.heraldry-wiki.com/heraldrywiki/images/8/8c/Louth.county.gif"></ion-img>
-        <button ion-button color="twitter" square (click)="openLouthPage()">Open Louth</button>
-      </ion-item>
-
-      <ion-item padding class=Meath>
-        <h2>Meath</h2>
-        <ion-img width="50" height="50" src="http://meath.gaa.ie/wp-content/uploads/2018/06/Meath-NEW-Crest.jpg"></ion-img>
-        <button ion-button color="twitter" square (click)="openMeathPage()">Open Meath</button>
-      </ion-item>
-
-      <ion-item padding class=Offaly>
-        <h2>Offaly</h2>
-        <ion-img width="50" height="50" src="https://www.ireland101.com/assets/img/ireland101/county_crests/offaly.png"></ion-img>
-        <button ion-button color="twitter" square (click)="openOffalyPage()">Open Offaly</button>
-      </ion-item>
-      
-      <ion-item padding class=Westmeath>
-        <h2>Westmeath</h2>
-        <ion-img width="50" height="50" src="http://www.aoh61.com/counties/w-meath.gif"></ion-img>
-        <button ion-button color="twitter" square (click)="openWestmeathPage()">Open Westmeath</button>
-      </ion-item>
-
-      <ion-item padding class=Wexford>
-        <h2>Wexford</h2>
-        <ion-img width="50" height="50" src="https://www.dunbrody.com/wp-content/uploads/2015/09/WCC-Crest-v12-Colour-Banner-for-HP.jpg"></ion-img>
-        <button ion-button color="twitter" square (click)="openWexfordPage()">Open Wexford</button>
-      </ion-item>
-
-      <ion-item padding class=Wicklow>
-        <h2>Wicklow</h2>
-        <ion-img width="50" height="50" src="http://officialwicklowgaa.ie/wp-content/uploads/2018/08/18446591_1626120004088776_2331597999057724612_n.jpg?1555632000079"></ion-img>
-        <button ion-button color="twitter" square (click)="openWicklowPage()">Open Wicklow</button>
-      </ion-item>
+      <button ion-button color="dark" full (click)="openLeinsterCounties2()">Open Page 2</button>
+   
 </ion-content>
   

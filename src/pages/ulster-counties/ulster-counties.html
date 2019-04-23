@@ -6,13 +6,36 @@
 -->
 <ion-header>
   <ion-navbar>
-    <ion-title>ulster_counties</ion-title>
+    <ion-title>Ulster</ion-title>
   </ion-navbar>
 </ion-header>
+ 
+<ion-content padding class=Ulster>
+    <h1>Ulster/Ulaidh</h1>
 
-<ion-content padding>
-  <h2>Cavan</h2>
-  <h2>Donegal</h2>
-  <h2>Monaghan</h2>
+    <p><b>It is made up of nine counties, six of which are in Northern Ireland (a part of the United Kingdom) and three of which are in the Republic of Ireland.
+        Unlike the other provinces, Ulster has a high percentage of Protestants, making up almost half of its population.
+        English is the main language and Ulster English the main dialect
+    </b></p>
+
+    <ion-img width="200" height="250" src="../assets/imgs/Ulster.png"></ion-img>
+    
+    <ion-item padding class=Cavan>
+      <h2>Cavan</h2>
+      <ion-img width="80" height="80" src="../assets/imgs/CavanCrest.png"></ion-img>
+      <button ion-button color = "twitter" square (click)="openCavanPage()">Open Cavan</button>
+    </ion-item>
+
+    <ion-item padding class=Donegal>
+      <h2>Donegal</h2>
+      <ion-img width="80" height="80" src="../assets/imgs/DonegalCrest.png"></ion-img>
+      <button ion-button color = "twitter" square (click)="openDonegalPage()">Open Donegal</button>
+    </ion-item>
+
+    <ion-item padding class=Monaghan>
+      <h2>Monaghan</h2>
+      <ion-img width="80" height="80" src="../assets/imgs/MonaghanCrest.png"></ion-img>
+      <button ion-button color = "twitter" square (click)="openMonaghanPage()">Open Monaghan</button>
+    </ion-item>
 
 </ion-content>

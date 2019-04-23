@@ -6,20 +6,18 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  Provinces of Ireland
-<ol>
-  <li (click)="openUlsterPage()">Ulster</li>
- 
-  <li (click)="openMunsterPage()">Munster</li>
- 
-  <li (click)="openConnachtPage()">Connacht</li>
-  
-  <li (click)="openLeinsterPage()">Leinster</li>
-  
-  </ol>
+<ion-content padding class=home>
+ <h1 ion-text color="light" ><b>Provinces of Ireland</b></h1> 
+ <br>
 
-  <ion-img width="200" height="150" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Flag_of_Ulster.svg"></ion-img>
-    <ion-img width="200" height="150" src="http://cdn2.bigcommerce.com/server4100/fbaa7/images/stencil/1024x1024/products/143/234/MunsterFlag__26591.1321815062.gif?c=2"></ion-img>
-    <ion-img width="200" height="150" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Flag_of_Connacht.svg/300px-Flag_of_Connacht.svg.png"></ion-img>
-    <ion-img width="200" height="150" src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Flag_of_Leinster.svg"></ion-img>
+ <h2 ion-text color="light"><b>Ulster</b></h2>
+ <ion-img (click)= "openUlsterPage()" width="200" height="110" src="../assets/imgs/UlsterFlag.svg"></ion-img>
+ <h2 ion-text color="light"><b>Munster</b></h2>
+ <ion-img (click)="openMunsterPage()" width="200" height="120" src="../assets/imgs/MunsterFlag.gif"></ion-img>
+ <h2 ion-text color="light"><b>Connacht</b></h2>
+ <ion-img (click)="openConnachtPage()" width="200" height="120" src="../assets/imgs/ConnachtFlag.png"></ion-img>
+ <h2 ion-text color="light"><b>Leinster</b></h2> 
+ <ion-img (click)="openLeinsterPage()" width="200" height="100" src="../assets/imgs/LeinsterFlag.svg"></ion-img>
+ 
+
+</ion-content>

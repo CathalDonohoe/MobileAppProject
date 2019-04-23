@@ -24,4 +24,16 @@ export class UlsterCountiesPage {
     console.log('ionViewDidLoad UlsterCountiesPage');
   }
 
+  openCavanPage(){
+    this.navCtrl.push('CavanPage');
+  }
+
+  openDonegalPage(){
+    this.navCtrl.push('DonegalPage');
+  }
+
+  openMonaghanPage(){
+    this.navCtrl.push('MonaghanPage');
+  }
+
 }
