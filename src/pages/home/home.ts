@@ -27,4 +27,16 @@ export class HomePage {
   openLeinsterPage(){
     this.navCtrl.push('LeinsterCountiesPage');
   }
+
+  openMoviesPage(){
+    this.navCtrl.push('MoviePage');
+  }
+
+  openAboutPage(){
+    this.navCtrl.push('AboutPage');
+  }
+
+  openLocationPage(){
+    this.navCtrl.push('LocationPage');
+  }
 }

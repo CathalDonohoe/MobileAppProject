@@ -1,0 +1,19 @@
+<!--
+  Generated template for the LocationPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>Location</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="Location">
+<button ion-text color="twitter" square (click)="location()">Show Your Current Location</button>
+<h2 ion-text color="light" [hidden]="visible">Your Current Location is Below:</h2>
+<h2 ion-text color="light" [hidden]="visible">Latitude: {{lat}}</h2>
+<h2 ion-text color="light" [hidden]="visible">Longitude: {{lng}}</h2>
+
+</ion-content>
