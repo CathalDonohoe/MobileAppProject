@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Storage } from '@ionic/storage';
+import {HomePage} from'./../home/home';
+
 
 /**
  * Generated class for the StatusPage page.
@@ -24,6 +26,10 @@ export class StatusPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad StatusPage');
+  }
+  
+  openHome(){
+    this.navCtrl.push(HomePage);
   }
 
   onSave(){

@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {Geolocation} from '@ionic-native/geolocation/ngx';
+import {HomePage} from'./../home/home';
+
 /**
  * Generated class for the LocationPage page.
  *
@@ -24,6 +26,10 @@ export class LocationPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad LocationPage');
+  }
+
+  openHome(){
+    this.navCtrl.push(HomePage);
   }
 
 

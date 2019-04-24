@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {HomePage} from'./../home/home';
+
 
 /**
  * Generated class for the LeinsterCountiesPage page.
@@ -55,6 +57,10 @@ export class LeinsterCountiesPage {
 
   openLeinsterCounties2(){
     this.navCtrl.push('LeinsterCounties2Page');
+  }
+
+  openHome(){
+    this.navCtrl.push(HomePage);
   }
 
 }

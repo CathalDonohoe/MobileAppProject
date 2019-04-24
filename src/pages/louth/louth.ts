@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {HomePage} from'./../home/home';
+
 
 /**
  * Generated class for the LouthPage page.
@@ -16,6 +18,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class LouthPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  }
+
+  openHome(){
+    this.navCtrl.push(HomePage);
   }
 
   ionViewDidLoad() {

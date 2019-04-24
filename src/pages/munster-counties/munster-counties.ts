@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {HomePage} from'./../home/home';
+
 
 /**
  * Generated class for the MunsterCountiesPage page.
@@ -46,4 +48,8 @@ export class MunsterCountiesPage {
     this.navCtrl.push('WaterfordPage');
   }
 
+  openHome(){
+    this.navCtrl.push(HomePage);
+  }
+  
 }

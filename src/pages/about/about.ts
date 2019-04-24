@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Storage } from '@ionic/storage';
+import {HomePage} from'./../home/home';
 
 
 @IonicPage()
@@ -19,6 +20,10 @@ export class AboutPage {
     this.navCtrl.push("StatusPage");
   }
 
+  openHome(){
+    this.navCtrl.push(HomePage);
+  }
+
   ionViewWillEnter() {
     this.storage.get("status").then((val) => {
       this.information=val;
@@ -26,6 +31,9 @@ export class AboutPage {
   }).catch((err)=>{
     console.log(err);
   })
+
+
+ 
 }
 
  
