@@ -17,6 +17,7 @@
 
 <ion-content padding class="Location">
 <button ion-text color="twitter" square (click)="location()">Show Your Current Location</button>
+<!--hidden keeps all of the below text invisible until the user presses the button-->
 <h2 ion-text color="light" [hidden]="visible">Your Current Location is Below:</h2>
 <h2 ion-text color="light" [hidden]="visible">Latitude: {{lat}}</h2>
 <h2 ion-text color="light" [hidden]="visible">Longitude: {{lng}}</h2>

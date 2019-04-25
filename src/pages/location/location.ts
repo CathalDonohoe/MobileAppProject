@@ -33,6 +33,8 @@ export class LocationPage {
   }
 
 
+  //function below sets wheter the text is invisible or not
+  //also uses the geolocation plugin to get the devices latitude and longitude
   location(){
     if(this.visible=true){
       this.visible=false;
